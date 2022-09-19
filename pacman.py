@@ -23,7 +23,7 @@ ghosts = [
     [vector(-180, 160), vector(5, 0)],
     [vector(-180, -160), vector(0, 5)],
     [vector(100, 160), vector(0, -5)],
-    [vector(100, -160), vector(-5, 0)],
+    #[vector(100, -160), vector(-5, 0)],
 ]
 # fmt: off
 tiles = [
@@ -128,7 +128,7 @@ def move():
 
     up()
     goto(pacman.x + 10, pacman.y + 10)
-    dot(20, 'yellow')
+    dot(20, 'green')
 
     for point, course in ghosts:
         if valid(point + course):
