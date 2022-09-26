@@ -301,8 +301,8 @@ vector(7, 9)
 False
 ```
 
-- Rotação (sentido horário a partir de um ângulo, mudança interna no vetor)
-```
+- Rotação (sentido anti-horário a partir de um ângulo, mudança interna no vetor)
+```python
 >>> v = vector(1, 2)
 >>> v.rotate(90)
 >>> v == vector(-2, 1)
@@ -328,4 +328,4 @@ vector(1.5, 4.0)
 [Vetores no Plano e no Espaço. | 01. Álgebra Linear.](https://www.youtube.com/watch?v=S9zlJFg7pZY)
 
 
-[Anterior](02_fpg_paint.md) | [Próximo](04_fpg_pacman.md)
+[Anterior](02_fpg_paint.md) | [Próximo](04_fpg_tictactoe.md)
